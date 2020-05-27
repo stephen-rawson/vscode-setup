@@ -1,0 +1,43 @@
+{
+  "explorer.confirmDragAndDrop": false,
+  "window.zoomLevel": 0,
+  "workbench.settings.editor": "json",
+  "workbench.settings.openDefaultSettings": true,
+  "workbench.settings.useSplitJSON": true,
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.cursorStyle": "block",
+  "editor.rulers": [70, 80],
+  "editor.cursorBlinking": "expand",
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.find.autoFindInSelection": "multiline",
+  "editor.lineNumbers": "interval",
+  "editor.minimap.size": "fill",
+  "editor.padding.bottom": 10,
+  "editor.renderLineHighlight": "all",
+  "editor.scrollBeyondLastLine": false,
+  "editor.padding.top": 10,
+  "javascript.format.enable": false,
+  "explorer.incrementalNaming": "smart",
+  "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.8/bin/python3",
+  "workbench.colorTheme": "Default High Contrast",
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.forceIterationColorCycle": true,
+  "bracket-pair-colorizer-2.colorMode": "Consecutive",
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "workbench.iconTheme": "ayu",
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["--line-length=70"],
+  "code-runner.executorMap": {
+    "python": "$pythonPath -u $fullFileName",
+    "go": "go run"
+  },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": true,
+  "explorer.confirmDelete": false,
+  "autoDocstring.docstringFormat": "google",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
